@@ -15,7 +15,7 @@ class ChallengeOne:
         self.data = self.fold_y(self.data)
         self.output_data(self.data)
 
-    def read_input(self, fn: str = 'input.txt')
+    def read_input(self, fn: str = 'input.txt'):
         with open(fn, 'r') as f:
             data = [list(line.replace('\n', '')) for line in f]            
         self.data = data
@@ -33,13 +33,13 @@ class ChallengeOne:
         """
         Implement here your implementation of the fold x function
         """
-        raise NotImplementedError
+        return nfold_x(data)
 
     def fold_y(self, data: list):
         """
         Implement here your implementation of the fold y function
         """
-        raise NotImplementedError
+        return nfold_y(data)
 
         
 
