@@ -24,15 +24,15 @@ Here's a breakdown of the program:
 ```
 Implement the fold_x and fold_y functions. On fold_x if the following list is provided is has to return the following result:
 input = [
-    [' ', 'x', 'y', ' '],
-    [' ', ' ', 'y', ' '],
-    ['x', ' ', ' ', ' '],
-    [' ', ' ', ' ', 'y'],
+    ['', 'x', 'y', ''],
+    ['', '', 'y', ''],
+    ['x', '', '', ''],
+    ['', '', '', 'y'],
 ]
 
 output = [
-    [' ', 'x', 'y', 'y'],
-    ['x', ' ', 'y', ' '],
+    ['', 'x', 'y', 'y'],
+    ['x', '', 'y', ''],
 ]
 
 ```
